@@ -1,63 +1,128 @@
 .cover{
-position: relative;
-width: 1920px;
-height: 1080px;
-background: #C174C3;
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background: #C174C3;
 }
 
-/* Sneaker Hero Section */
 .cover>.sneakerherosection{
-position: absolute;
-width: 1440px;
-height: 820px;
-left: calc(50% - 1440px/2 + 72px);
-top: calc(50% - 820px/2 - 38px);
-background: #FFFFFF;
-box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    width: 1440px;
+    height: 820px;
+    left: calc(50% - 1440px/2 + 72px);
+    top: calc(50% - 820px/2 - 38px);
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.3);
 }
 
-/* hero section */
 .sneakerherosection>.conteiner{
-display: flex;
-justify-content: space-between;
-align-items: center;
-flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 }
 
-
-
-
-
+.sneakerherosection>.arrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+}
+.arrow::before{
+    content: url(./img/Left.svg);
+    margin-left: 80px;
+}
+.arrow::after{
+    content: url(./img/Right.svg);
+    margin-right: 80px;
+}
 
 .sneakerherosection>.top{
-display: flex;
-justify-content: space-between;
-align-items: center;
-flex-direction: row;
-margin: 40px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 40px 150px;
 }
 
 .top>.menu{
-display: flex;
-gap: 30px;
+    display: flex;
+    gap: 30px;
 }
 
 .menu>.nav-dir{
-font-family: 'sofiapro-light';
-font-weight: bold;
-font-size: 15px;
-padding: 10px;
-text-decoration: none;
-color: black;
-line-height: 24px;
+    font-family: 'sofiapro-light';
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    line-height: 24px;
 }
 
 .top>.logo{
-width: 145px;
-height: 52px;
+    width: 145px;
+    height: 52px;
 }
 
 .top>.icons {
-display: flex;
-gap: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.sneakerherosection>.arrow>.lefttext{
+    margin-left: 2%;
+}
+
+.sneakerherosection>.arrow>.shoesblock {
+    width: 50%;
+}
+
+.sneakerherosection>.arrow>.shoesblock>.shoes{
+
+}
+
+.sneakerherosection>.arrow>.shoesblock>.shadow{
+    display: flex;
+    margin-left: 5.5%;
+    margin-top: -8%;
+}
+/*.sneakerherosection>.conteiner>.shoesblock>.shoes::before{
+content: 'NYKEN AIR';
+font-size:150 ;
+font-weight: 900;
+color: black;
+display: block;
+}*/
+.lefttext>.text1{
+    padding: 0;
+    font-family: 'sofiapro-light';
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 45px;
+    font-weight: bold;
+}
+.lefttext>.text2{
+    padding: 0;
+    margin-top: -10%;
+    font-size: 20px;
+    font-family: 'sofiapro-light';
+}
+
+.sneakerherosection >.arrow>.lefttext >.CTA{
+    padding: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 3px solid;
+}
+.lefttext >.CTA>.button{
+    background-color: white;
 }
