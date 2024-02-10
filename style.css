@@ -1,0 +1,63 @@
+.cover{
+position: relative;
+width: 1920px;
+height: 1080px;
+background: #C174C3;
+}
+
+/* Sneaker Hero Section */
+.cover>.sneakerherosection{
+position: absolute;
+width: 1440px;
+height: 820px;
+left: calc(50% - 1440px/2 + 72px);
+top: calc(50% - 820px/2 - 38px);
+background: #FFFFFF;
+box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* hero section */
+.sneakerherosection>.conteiner{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: row;
+}
+
+
+
+
+
+
+.sneakerherosection>.top{
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: row;
+margin: 40px 150px;
+}
+
+.top>.menu{
+display: flex;
+gap: 30px;
+}
+
+.menu>.nav-dir{
+font-family: 'sofiapro-light';
+font-weight: bold;
+font-size: 15px;
+padding: 10px;
+text-decoration: none;
+color: black;
+line-height: 24px;
+}
+
+.top>.logo{
+width: 145px;
+height: 52px;
+}
+
+.top>.icons {
+display: flex;
+gap: 30px;
+}
